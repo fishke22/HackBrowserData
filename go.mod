@@ -1,6 +1,6 @@
 module hack-browser-data
 
-go 1.19
+go 1.24.0
 
 require (
 	github.com/gocarina/gocsv v0.0.0-20211203214250-4735fba0c1d9
@@ -14,9 +14,9 @@ require (
 	github.com/syndtr/goleveldb v1.0.0
 	github.com/tidwall/gjson v1.9.3
 	github.com/urfave/cli/v2 v2.4.0
-	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3
+	golang.org/x/crypto v0.45.0
 	golang.org/x/exp v0.0.0-20220414153411-bcd21879b8fd
-	golang.org/x/text v0.3.6
+	golang.org/x/text v0.31.0
 )
 
 require (
@@ -30,6 +30,6 @@ require (
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
-	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad // indirect
+	golang.org/x/sys v0.38.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
